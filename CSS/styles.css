@@ -1,0 +1,285 @@
+body{
+    background-color: white;
+
+}
+header{
+	display: flex;
+	justify-content: space-around;
+
+	
+}
+#recherche{
+	border: 1px solid rgb(37, 34, 34);
+	display: flex;
+	justify-content: space-around;
+    margin-left: 0em;
+	width: 27em;
+	height: 2.4em;
+	margin-top: 1.5em;
+}
+.recherche1{
+	font-size: 1.3em;
+	border: none;
+	outline: none;
+	width: 24em;
+    padding-left: 0.5em;
+}
+.recherche2{
+	font-size: 1.3em;
+}
+#minmenu{
+	border: 0px solid;
+	display: flex;
+	justify-content: space-around;
+	width: 35em;
+	height: 3em;
+    margin-top:1.5em;
+}
+.element1{
+    padding-top: 1.5em;
+}
+#article_discussion{
+    display: flex;
+}
+.article{
+    font-size: 1.3em;
+}
+#Discussion{
+    border-bottom: 0.1em solid turquoise;
+    border-left: 0.2em solid turquoise;
+    border-right: 0.1em solid turquoise;
+    width:46em;
+    height: 2.6em;
+    margin-left: 1em;
+    margin-top: -0.5em;
+       
+}
+.Discussion{
+    background-color: rgb(232, 246, 246);
+    width:6em;
+    height: 1.7em;
+    padding-left: 0.5em;
+    padding-top: 0.3em;
+    margin-left: -0.1em;
+    font-size: 1.3em;
+    
+    border-right: 0.1em solid turquoise;
+}
+#autres{
+    display: flex;
+    border-bottom: 0.1em solid turquoise;
+    border-left: 0.2em solid turquoise;
+    border-right: 0.1em solid turquoise;
+    height: 2.6em;
+    margin-left: 1em;
+    margin-top: -0.5em;
+    width: 23em;
+}
+#lire{
+    font-size: 1.3em;
+    text-align: center;
+}
+#Modifier{
+    border-right: 0.1em solid turquoise;
+    background-color: rgb(232, 246, 246);
+    width:4.5em;
+    height: 1.85em;
+    /* padding-left: 0.5em; */
+    padding-top: 0.3em;
+    font-size: 1.2em;
+    text-align: center;
+    
+}
+#ModifierC{
+    background-color: rgb(232, 246, 246);
+    width: 8em;
+    height: 1.85em;
+    padding-top: 0.3em;
+    text-align: center;
+    font-size: 1.2em;
+    border-right: 0.1em solid turquoise;
+    border-style: ;
+    background: linea;
+
+}
+#voir{
+    background-color: rgb(232, 246, 246);
+    width: 7em;
+    height: 1.85em;
+    text-align: center;
+    padding-top: 0.3em;
+    font-size: 1.2em;
+}
+#section{
+    display: flex;
+    justify-content: space-between;
+}
+#section1{
+    background-color: rgb(244, 244, 250);
+    border:0em ;
+    width: 15em;
+    height: 49em;
+}
+.hrsect1{
+    width: 9em;
+}
+
+@media screen and (min-width:10em){
+    #section2{
+        border:0em;
+        
+        width: 78em;   
+    } 
+}
+
+#section21{
+    background-color: rgb(245, 248, 248);
+    border:1px solid black ;
+    height: 100em;
+    margin-right: 2em;
+    width: 25em;
+    float: right;
+}
+#macky{
+    background-color: blue;
+    margin: 0.3em;
+    text-align: center;
+    padding-top: 0.3em;
+    font-size: 2em;
+    border: 0em ;
+    color: white;
+    height: 1.6em;
+}
+#spanfunction{
+    /* border: 0.2em solid; */
+    padding-left: -0.5em;
+	display: flex;
+    justify-content: space-evenly;
+    padding-top: 0.5em;
+    width: 22em;
+   
+}
+.spanfunction1{
+    /* margin-left: 0.2em; */
+    font-size:  1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.spanfunction2{
+    font-size:  1.2em;
+   
+}
+#assemblé{
+    background-color: rgb(188, 188, 252);
+    margin: 0.3em;
+    text-align: center;
+    padding-top: 0.2em;
+    font-size: 1.2em;
+    border: 0em ;
+    color: rgb(33, 2, 172);
+    height: 1.5em;
+}
+#assemblejuin{
+    text-align: center;
+    font-size: 1.2em; 
+}
+#divassemble{
+    /* border: 0.2em solid; */
+    padding-left: -0.5em;
+	display: flex;
+    justify-content: space-evenly;
+    padding-top: 0.5em;
+    width: 18em;
+}
+.spanassemble1{
+    font-size:  1.18em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.spanassemble2{
+    font-size:  1em; 
+}
+#biographie{
+    background-color: blue;
+    margin: 0.3em;
+    text-align: center;
+    padding-top: 0.2em;
+    font-size: 1.5em;
+    border: 0em ;
+    color: white;
+    height: 1.5em;
+}
+#divbibilio{
+     /* border: 0.2em solid; */
+     padding-left: -0.5em;
+     display: flex;
+     justify-content: space-evenly;
+     padding-top: 0.5em;
+     margin-left: 0.3em;
+     width: 24em;
+}
+.spanbibilio1{
+    font-size:  1.18em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.spanbibilio2{
+    font-size:  1.18em;
+}
+.logo_armée{
+    /* border: 0.2em solid; */
+    display: flexbox;
+    margin-left: 9em;
+
+}
+.souslogo{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+p{
+    font-size: 1.3em;
+}
+h1{
+    font-weight: bold;
+}
+.imgMacky{
+    float: right;
+    padding-right: 0.5em;
+    height: 21em;
+    width: 19em;
+}
+figcaption{
+    text-align: center;
+}
+#fonction{
+    background-color: blue;
+    margin: 0.3em;
+    text-align: center;
+    padding-top: 0.2em;
+    font-size: 1.5em;
+    border: 0em ;
+    color: white;
+    height: 1.5em;
+}
+#president{
+    background-color: rgb(188, 188, 252);
+    margin: 0.3em;
+    text-align: center;
+    padding-top: 0.2em;
+    font-size: 1.5em;
+    border: 0em ;
+    color: rgb(33, 2, 172);
+    height: 1.5em;
+}
+#debut{
+    text-align: center;
+    font-size: 1.1em;
+    
+}
+#plan{
+    background-color: rgba(238, 238, 248, 0.301);
+    border: 0.2em solid blue;
+    height: 24em;
+    width: 21em;
+}
+h2{
+    font-weight: bold;
+}
