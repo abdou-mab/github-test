@@ -8,6 +8,76 @@ header{
 
 	
 }
+.menu-btn{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    border: 3px solid black;
+}
+.menu-btn_burger{
+    border-radius:5px;
+    box-shadow:  0 2px 5px rgb(255,101,47,.2);
+    background: black;
+    width: 30px;
+    height: 3px;
+    transition: all .5s ease-in-out;
+}
+
+.menu-btn_burger::before,
+
+.menu-btn_burger::after{
+    content: '';
+    position: absolute;
+    background: black;
+    border-radius:5px;
+    box-shadow:  0 2px 5px rgb(255,101,47,.2);
+    transition: all .5s ease-in-out;
+    width: 30px;
+    height: 3px;
+}
+.menu-btn_burger::before{
+    transform: translateY(-8px);
+}
+.menu-btn_burger::after{
+    transform: translateY(8px);
+}
+ /*animation*/
+ .menu-btn.open .menu-btn_burger {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+ }
+.menu-btn.open .menu-btn_burger::before{
+    transform: rotate(45deg) translate(35px, -35px);
+}
+.menu-btn.open .menu-btn_burger::after{
+    transform: rotate(-45deg) translate(35px, 35px);
+}
+#check{
+    display: none;
+}
+.main-box .btn-one{
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 400px;
+    line-height: 30px;
+    cursor: pointer;
+    opacity: 1;
+    transition: all 0.3s linear;
+}
+.sidebar-menu{
+    opacity: 0;
+}
+#check:checked ~.sidebar-menu{
+    opacity: 1;
+}
+
 #recherche{
 	border: 1px solid rgb(37, 34, 34);
 	display: flex;
@@ -113,6 +183,41 @@ header{
 #section{
     display: flex;
     justify-content: space-between;
+}
+.menu-btn{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    border: 3px solid black;
+}
+.menu_burger{
+    position: relative;
+    display: flex;
+    width: 30px;
+    height: 3px;
+    background:black;
+    border-radius: 5px;
+    align-items: center;
+    box-shadow: 0 2px 3px red;
+    transition: all .5s ease-in-out;
+}
+.menu_burger::before,
+.menu_burger::after{
+    content: '';
+    position: absolute;
+    width:30px;
+    height: 3px;
+    background:black;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px red;
+    transition: all .5s ease-in-out; 
+}
+.menu_burger::before{
+    transform: translateY(-16px);
+}
+.menu_burger::after{
+    transform: translateY(16px);
 }
 #section1{
     background-color: rgb(244, 244, 250);
